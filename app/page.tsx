@@ -21,7 +21,7 @@ function Navbar() {
           <li><a href="#stats">Stats</a></li>
         </ul>
         <div className="flex items-center gap-3">
-          <button className="btn btn-primary btn-sm">Download App</button>
+          <a href="/coinvest.apk" download className="btn btn-primary btn-sm">Download App</a>
         </div>
       </div>
     </nav>
@@ -121,9 +121,9 @@ export default function LandingPage() {
                 epic battles, and exciting games. No experience required.
               </p>
               <div className="flex items-center gap-4">
-                <button className="btn btn-primary btn-lg">
+                <a href="/coinvest.apk" download className="btn btn-primary btn-lg">
                   📱 Download App
-                </button>
+                </a>
                 <button 
                   className="btn btn-secondary btn-lg"
                   onClick={() => setShowVideoModal(true)}
@@ -354,8 +354,7 @@ export default function LandingPage() {
               Join 50,000+ investors already growing their coins. Download CoinVest free on iOS and Android.
             </p>
             <div className="flex items-center justify-center gap-4" style={{ position: 'relative' }}>
-              <button className="btn btn-primary btn-lg">🍎 App Store</button>
-              <button className="btn btn-secondary btn-lg">🤖 Google Play</button>
+              <a href="/coinvest.apk" download className="btn btn-primary btn-lg">🤖 Download Android APK</a>
             </div>
           </div>
         </div>
